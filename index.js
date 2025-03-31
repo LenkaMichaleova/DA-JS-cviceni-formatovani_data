@@ -8,3 +8,4 @@ function formatDate(object) {
 }
 
 console.log(formatDate({ day: 12, month: 3, year: 2015 }))
+document.body.innerHTML = `<h1>Výsledek je v konzoli (v Devtools)</h1>`
